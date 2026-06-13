@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnapnStick — Magnetize Your Memories | Custom Photo Magnets, Hubli</title>
+  <meta name="description" content="SnapnStick crafts beautiful custom photo magnets in Hubli, India. Turn your favourite moments into elegant keepsakes. Order easily on WhatsApp. Magnetize your memories." />
+  <meta name="theme-color" content="#FBF8F3" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SnapnStick — Magnetize Your Memories" />
+  <meta property="og:description" content="Custom photo magnets, handcrafted in Hubli. Turn moments into keepsakes." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/hero.jpeg" />
+
+  <link rel="icon" type="image/png" href="img/logo-black.png" />
+
+  <!-- Fonts: Fraunces (elegant display serif) + Inter (clean body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream:   '#FBF8F3',
+            sand:    '#F3ECE1',
+            ink:     '#211E1C',
+            charcoal:'#2E2A26',
+            gold:    '#B8893B',
+            goldsoft:'#CBA15A',
+            stone:   '#6F665C',
+          },
+          fontFamily: {
+            display: ['Fraunces', 'Georgia', 'serif'],
+            body:    ['Inter', 'system-ui', 'sans-serif'],
+          },
+          letterSpacing: {
+            widest2: '0.32em',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="bg-cream font-body text-charcoal antialiased selection:bg-gold/20">
+
+  <!-- Skip link -->
+  <a href="#samples" class="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:bg-ink focus:text-cream focus:px-4 focus:py-2 focus:rounded">Skip to gallery</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header id="navbar" class="fixed top-0 inset-x-0 z-50 transition-all duration-500">
+    <nav class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="nav-inner mt-3 flex items-center justify-between rounded-full px-4 sm:px-6 py-2.5 transition-all duration-500">
+        <a href="#top" class="flex items-center gap-3 group" aria-label="SnapnStick home">
+          <img src="img/logo-black.png" alt="SnapnStick logo" class="h-10 w-auto sm:h-11 transition-transform duration-500 group-hover:-rotate-2" />
+        </a>
+
+        <div class="hidden md:flex items-center gap-8 text-sm tracking-wide text-stone">
+          <a href="#samples" class="link-underline hover:text-ink transition-colors duration-200">Samples</a>
+          <a href="#how" class="link-underline hover:text-ink transition-colors duration-200">How it works</a>
+          <a href="#about" class="link-underline hover:text-ink transition-colors duration-200">About</a>
+          <a href="#faq" class="link-underline hover:text-ink transition-colors duration-200">FAQ</a>
+        </div>
+
+        <a href="#order" class="hidden md:inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-cream hover:bg-gold transition-colors duration-300 cursor-pointer">
+          Order now
+        </a>
+
+        <!-- Mobile toggle -->
+        <button id="menuBtn" class="md:hidden inline-flex h-11 w-11 items-center justify-center rounded-full text-ink cursor-pointer" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="md:hidden hidden px-5 sm:px-8">
+      <div class="mt-2 rounded-3xl bg-cream/95 backdrop-blur-md border border-ink/10 shadow-xl p-6 flex flex-col gap-1 text-lg">
+        <a href="#samples" class="mobile-link py-3 border-b border-ink/5">Samples</a>
+        <a href="#how" class="mobile-link py-3 border-b border-ink/5">How it works</a>
+        <a href="#about" class="mobile-link py-3 border-b border-ink/5">About</a>
+        <a href="#faq" class="mobile-link py-3 border-b border-ink/5">FAQ</a>
+        <a href="#order" class="mobile-link mt-3 inline-flex items-center justify-center gap-2 rounded-full bg-ink px-5 py-3 text-base text-cream">Order now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section id="top" class="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-28">
+    <!-- soft decorative background -->
+    <div class="pointer-events-none absolute inset-0 -z-10">
+      <div class="absolute -top-32 -left-24 h-96 w-96 rounded-full bg-goldsoft/20 blur-3xl"></div>
+      <div class="absolute top-1/3 -right-24 h-[28rem] w-[28rem] rounded-full bg-sand blur-3xl"></div>
+      <div class="absolute inset-0 bg-grain opacity-[0.04]"></div>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-5 sm:px-8 grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+      <div class="lg:col-span-6">
+        <p data-reveal class="inline-flex items-center gap-2 rounded-full border border-ink/10 bg-cream/60 px-4 py-1.5 text-xs tracking-widest2 uppercase text-stone">
+          <span class="h-1.5 w-1.5 rounded-full bg-gold"></span> Handcrafted in Hubli, India
+        </p>
+
+        <h1 data-reveal class="mt-6 font-display text-5xl sm:text-6xl lg:text-7xl leading-[1.02] text-ink">
+          Magnetize<br/>
+          <span class="italic text-gold">your memories</span>
+        </h1>
+
+        <p data-reveal class="mt-6 max-w-md text-lg leading-relaxed text-stone">
+          We turn your most-loved photos into elegant, fridge-worthy magnets — little keepsakes that hold a moment in place, forever.
+        </p>
+
+        <div data-reveal class="mt-9 flex flex-col sm:flex-row gap-3">
+          <a href="#order" class="btn-whatsapp inline-flex items-center justify-center gap-2.5 rounded-full bg-ink px-7 py-4 text-base font-medium text-cream hover:bg-gold transition-colors duration-300 cursor-pointer">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.2c-.25.69-1.45 1.32-1.99 1.4-.51.08-1.16.11-1.87-.12-.43-.14-.99-.32-1.7-.63-2.99-1.29-4.94-4.3-5.09-4.5-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.59-.37.79-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.59.84 2.04.91 2.19.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.47.12.64-.07.17-.2.74-.86.94-1.16.2-.3.39-.25.66-.15.27.1 1.7.8 1.99.95.3.15.5.22.57.35.07.12.07.72-.18 1.41Z"/></svg>
+            Order on WhatsApp
+          </a>
+          <a href="#samples" class="inline-flex items-center justify-center gap-2 rounded-full border border-ink/15 px-7 py-4 text-base font-medium text-ink hover:border-gold hover:text-gold transition-colors duration-300 cursor-pointer">
+            View samples
+          </a>
+        </div>
+
+        <div data-reveal class="mt-10 flex items-center gap-6 text-sm text-stone">
+          <div class="flex items-center gap-1.5">
+            <span class="text-gold">★★★★★</span>
+            <span>Loved by local families</span>
+          </div>
+          <span class="h-4 w-px bg-ink/15"></span>
+          <span>Fast turnaround</span>
+        </div>
+      </div>
+
+      <!-- Hero visual: floating magnet cards -->
+      <div class="lg:col-span-6 relative">
+        <div data-reveal class="relative mx-auto max-w-md">
+          <div class="magnet-card float-slow relative rounded-[1.75rem] bg-white p-3 shadow-2xl ring-1 ring-ink/5">
+            <img src="img/hero.jpeg" alt="Elegant custom photo magnet honouring Meera Tenginkai, crafted by SnapnStick" class="rounded-2xl w-full h-auto" loading="eager" />
+            <span class="magnet-dot"></span>
+          </div>
+
+          <!-- small floating accent card -->
+          <div class="float-fast absolute -bottom-8 -left-6 hidden sm:block w-40 rotate-[-6deg] rounded-2xl bg-cream p-2.5 shadow-xl ring-1 ring-ink/5">
+            <div class="rounded-xl bg-gradient-to-br from-sand to-goldsoft/40 aspect-square flex items-center justify-center">
+              <span class="font-display italic text-ink/70 text-sm text-center px-3">your photo here</span>
+            </div>
+          </div>
+
+          <div class="float-mid absolute -top-6 -right-4 hidden sm:flex h-20 w-20 rotate-[8deg] items-center justify-center rounded-2xl bg-ink text-cream shadow-xl">
+            <span class="font-display text-xs tracking-widest text-center leading-tight">SNAP<br>n<br>STICK</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="border-y border-ink/10 bg-sand/50 py-4 overflow-hidden">
+    <div class="marquee flex gap-10 whitespace-nowrap font-display text-xl sm:text-2xl text-ink/70">
+      <span class="marquee-group flex gap-10 items-center">
+        <span>Birthdays</span><span class="text-gold">✦</span><span>Weddings</span><span class="text-gold">✦</span><span>Save the date</span><span class="text-gold">✦</span><span>Travel memories</span><span class="text-gold">✦</span><span>Baby's first</span><span class="text-gold">✦</span><span>Festivals</span><span class="text-gold">✦</span><span>Anniversaries</span><span class="text-gold">✦</span>
+      </span>
+      <span class="marquee-group flex gap-10 items-center" aria-hidden="true">
+        <span>Birthdays</span><span class="text-gold">✦</span><span>Weddings</span><span class="text-gold">✦</span><span>Save the date</span><span class="text-gold">✦</span><span>Travel memories</span><span class="text-gold">✦</span><span>Baby's first</span><span class="text-gold">✦</span><span>Festivals</span><span class="text-gold">✦</span><span>Anniversaries</span><span class="text-gold">✦</span>
+      </span>
+    </div>
+  </div>
+
+  <!-- ================= SAMPLES ================= -->
+  <section id="samples" class="py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-14">
+        <div>
+          <p data-reveal class="text-xs tracking-widest2 uppercase text-gold mb-3">Our work</p>
+          <h2 data-reveal class="font-display text-4xl sm:text-5xl text-ink leading-tight">A few moments,<br class="hidden sm:block"/> magnetized.</h2>
+        </div>
+        <p data-reveal class="max-w-sm text-stone leading-relaxed">Every magnet is custom-designed around your photo and occasion. Here's a taste of what we make.</p>
+      </div>
+
+      <!-- Gallery grid -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+        <!-- Featured sample (large) -->
+        <figure data-reveal class="gallery-item group col-span-2 row-span-2 cursor-pointer" data-full="img/sample-3.jpeg" data-caption="Happy Birthday magnet — Meera">
+          <div class="relative overflow-hidden rounded-3xl bg-white p-2.5 shadow-lg ring-1 ring-ink/5 h-full">
+            <img src="img/sample-3.jpeg" alt="Floral happy birthday photo magnet keepsake by SnapnStick" class="rounded-2xl w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" />
+            <figcaption class="gallery-cap">Birthday keepsake</figcaption>
+          </div>
+        </figure>
+
+        <figure data-reveal class="gallery-item group cursor-pointer" data-full="img/sample-1.jpeg" data-caption="Birthday magnet — Sushma">
+          <div class="relative overflow-hidden rounded-3xl bg-white p-2.5 shadow-lg ring-1 ring-ink/5 aspect-[4/5] flex">
+            <img src="img/sample-1.jpeg" alt="Personalised birthday photo magnet with floral design" class="rounded-2xl w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" />
+            <figcaption class="gallery-cap">Birthday</figcaption>
+          </div>
+        </figure>
+
+        <figure data-reveal class="gallery-item group cursor-pointer" data-full="img/sample-2.jpeg" data-caption="Congratulations magnet — Lakshmi Siddharthan">
+          <div class="relative overflow-hidden rounded-3xl bg-white p-2.5 shadow-lg ring-1 ring-ink/5 aspect-[4/5] flex">
+            <img src="img/sample-2.jpeg" alt="Congratulations photo magnet with botanical border" class="rounded-2xl w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" />
+            <figcaption class="gallery-cap">Congrats</figcaption>
+          </div>
+        </figure>
+
+        <figure data-reveal class="gallery-item group cursor-pointer" data-full="img/hero.jpeg" data-caption="Felicitation magnet — Meera Tenginkai">
+          <div class="relative overflow-hidden rounded-3xl bg-white p-2.5 shadow-lg ring-1 ring-ink/5 aspect-[4/5] flex">
+            <img src="img/hero.jpeg" alt="Elegant gold felicitation photo magnet honouring Meera Tenginkai" class="rounded-2xl w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" />
+            <figcaption class="gallery-cap">Felicitation</figcaption>
+          </div>
+        </figure>
+
+        <figure data-reveal class="gallery-item group cursor-pointer" data-full="img/sample-4.jpeg" data-caption="Custom calendar magnet — Inner Wheel Hubli 2026">
+          <div class="relative overflow-hidden rounded-3xl bg-white p-2.5 shadow-lg ring-1 ring-ink/5 aspect-[4/5] flex">
+            <img src="img/sample-4.jpeg" alt="Custom 2026 calendar fridge magnet for Inner Wheel Hubli" class="rounded-2xl w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.03]" loading="lazy" />
+            <figcaption class="gallery-cap">Calendar magnet</figcaption>
+          </div>
+        </figure>
+      </div>
+
+      <p data-reveal class="mt-8 text-center text-sm text-stone">See more on Instagram —
+        <a href="https://instagram.com/SNAPNSTICK4294" target="_blank" rel="noopener" class="text-gold underline-offset-4 hover:underline">@SNAPNSTICK4294</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= FIRST ORDER HIGHLIGHT ================= -->
+  <section id="first-order" class="py-20 sm:py-28 bg-sand/40">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <!-- Video reel -->
+      <div data-reveal class="order-1">
+        <div class="relative mx-auto w-full max-w-[18rem]">
+          <span class="absolute -top-3 -left-3 z-10 rounded-full bg-gold px-3 py-1 text-xs font-medium tracking-wide text-ink shadow-lg">Freshly packed</span>
+          <div class="float-slow overflow-hidden rounded-[2rem] bg-ink p-2 shadow-2xl ring-1 ring-ink/10">
+            <video
+              class="w-full h-auto rounded-[1.5rem]"
+              autoplay muted loop playsinline preload="metadata"
+              poster="img/first-order-poster.jpg"
+              aria-label="Video of SnapnStick's first order, hand-packed with branded seals">
+              <source src="img/first-order.mp4" type="video/mp4" />
+              Your browser doesn't support the video — see our packing on
+              <a href="https://instagram.com/SNAPNSTICK4294">Instagram</a>.
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copy -->
+      <div class="order-2">
+        <p data-reveal class="inline-flex items-center gap-2 rounded-full border border-gold/30 bg-cream px-4 py-1.5 text-xs tracking-widest2 uppercase text-gold">
+          <span class="h-1.5 w-1.5 rounded-full bg-gold animate-pulse"></span> Just shipped
+        </p>
+        <h2 data-reveal class="mt-5 font-display text-4xl sm:text-5xl text-ink leading-tight">Our very first order,<br class="hidden sm:block"/> out the door.</h2>
+        <p data-reveal class="mt-6 text-lg leading-relaxed text-stone">We're so proud of this one. Every magnet was designed, printed, and hand-wrapped in kraft paper with our own seal — little parcels of memory, ready to make someone smile.</p>
+
+        <div data-reveal class="mt-7 flex items-center gap-4">
+          <img src="img/order-basket.jpeg" alt="A basket of individually boxed custom photo magnets ready for delivery" class="w-32 sm:w-40 rounded-2xl shadow-lg ring-1 ring-ink/5" loading="lazy" />
+          <p class="font-display italic text-ink/70 text-lg leading-snug">"Made with love,<br/> sealed with care."</p>
+        </div>
+
+        <a data-reveal href="#order" class="mt-9 inline-flex items-center justify-center gap-2.5 rounded-full bg-ink px-7 py-4 text-base font-medium text-cream hover:bg-gold transition-colors duration-300 cursor-pointer">
+          Order yours on WhatsApp
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= HOW IT WORKS ================= -->
+  <section id="how" class="py-24 sm:py-32 bg-ink text-cream relative overflow-hidden">
+    <div class="pointer-events-none absolute inset-0 bg-grain opacity-[0.05]"></div>
+    <div class="mx-auto max-w-7xl px-5 sm:px-8 relative">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <p data-reveal class="text-xs tracking-widest2 uppercase text-goldsoft mb-3">How it works</p>
+        <h2 data-reveal class="font-display text-4xl sm:text-5xl leading-tight">Three simple steps to<br class="hidden sm:block"/> your keepsake</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6 lg:gap-10">
+        <div data-reveal class="step-card">
+          <span class="step-num">01</span>
+          <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.5A2.5 2.5 0 0 1 5.5 6h1.2l1-1.6A1 1 0 0 1 8.5 4h7a1 1 0 0 1 .8.4l1 1.6h1.2A2.5 2.5 0 0 1 21 8.5v8A2.5 2.5 0 0 1 18.5 19h-13A2.5 2.5 0 0 1 3 16.5v-8Z"/><circle cx="12" cy="12" r="3.5"/></svg>
+          <h3 class="step-title">Send your photos</h3>
+          <p class="step-text">Message us on WhatsApp with the photos and the occasion. Birthday, wedding, a favourite trip — anything.</p>
+        </div>
+        <div data-reveal class="step-card" style="transition-delay:.08s">
+          <span class="step-num">02</span>
+          <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path stroke-linecap="round" stroke-linejoin="round" d="m12 3 2.2 4.8 5.3.5-4 3.5 1.2 5.2L12 14.8 7.3 17l1.2-5.2-4-3.5 5.3-.5L12 3Z"/></svg>
+          <h3 class="step-title">We craft &amp; design</h3>
+          <p class="step-text">Our team designs a beautiful layout and prints it on a premium, durable magnet. We share a preview before printing.</p>
+        </div>
+        <div data-reveal class="step-card" style="transition-delay:.16s">
+          <span class="step-num">03</span>
+          <svg class="step-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path stroke-linecap="round" stroke-linejoin="round" d="M5 4h14a1 1 0 0 1 1 1v6a8 8 0 0 1-16 0V5a1 1 0 0 1 1-1Z"/><path stroke-linecap="round" d="M9 4v5a3 3 0 0 0 6 0V4"/></svg>
+          <h3 class="step-title">Stick &amp; smile</h3>
+          <p class="step-text">Collect or get it delivered, then magnetize your memory onto any fridge, locker or board. Done!</p>
+        </div>
+      </div>
+
+      <div data-reveal class="mt-14 text-center">
+        <a href="#order" class="inline-flex items-center justify-center gap-2.5 rounded-full bg-gold px-7 py-4 text-base font-medium text-ink hover:bg-goldsoft transition-colors duration-300 cursor-pointer">
+          Start your order
+          <svg class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8 grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+      <div data-reveal class="relative order-2 lg:order-1">
+        <div class="rounded-[2rem] bg-sand p-8 sm:p-12 relative overflow-hidden">
+          <div class="absolute -top-10 -right-10 h-40 w-40 rounded-full bg-goldsoft/30 blur-2xl"></div>
+          <img src="img/logo-black.png" alt="SnapnStick" class="h-24 w-auto mx-auto relative" />
+          <p class="mt-8 text-center font-display text-2xl italic text-ink leading-relaxed relative">"A photo on your phone gets scrolled past. A photo on your fridge gets lived with."</p>
+        </div>
+      </div>
+
+      <div class="order-1 lg:order-2">
+        <p data-reveal class="text-xs tracking-widest2 uppercase text-gold mb-3">Our story</p>
+        <h2 data-reveal class="font-display text-4xl sm:text-5xl text-ink leading-tight">Made with care,<br/> right here in Hubli.</h2>
+        <p data-reveal class="mt-6 text-lg leading-relaxed text-stone">SnapnStick started with a simple belief — that the moments we love deserve a place in our everyday lives, not buried in a camera roll.</p>
+        <p data-reveal class="mt-4 leading-relaxed text-stone">We hand-design and craft every magnet ourselves, treating each order like it's our own family photo. From birthdays to weddings to the little everyday joys, we help you keep them close.</p>
+
+        <dl data-reveal class="mt-10 grid grid-cols-3 gap-6">
+          <div><dt class="font-display text-3xl text-gold">100%</dt><dd class="mt-1 text-sm text-stone">Custom designed</dd></div>
+          <div><dt class="font-display text-3xl text-gold">Local</dt><dd class="mt-1 text-sm text-stone">Hubli-based</dd></div>
+          <div><dt class="font-display text-3xl text-gold">Fast</dt><dd class="mt-1 text-sm text-stone">Quick turnaround</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= TESTIMONIALS =================
+       Hidden until we have real customer reviews to show.
+       To re-enable: delete this opening comment line and the
+       matching close-comment line just after </section>.
+       Replace the 3 sample cards (Priya / Akshay / Rohan) with real ones. -->
+  <!--
+  <section id="love" class="py-24 sm:py-32 bg-sand/50">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <p data-reveal class="text-xs tracking-widest2 uppercase text-gold mb-3">Customer love</p>
+        <h2 data-reveal class="font-display text-4xl sm:text-5xl text-ink leading-tight">Memories worth sticking around</h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <figure data-reveal class="quote-card">
+          <div class="text-gold text-lg mb-4">★★★★★</div>
+          <blockquote class="font-display text-xl leading-relaxed text-ink">"The birthday magnet I ordered was even prettier than the preview. My mom keeps it on the fridge and shows everyone!"</blockquote>
+          <figcaption class="mt-6 flex items-center gap-3">
+            <span class="avatar">P</span>
+            <span><span class="block font-medium text-ink">Priya K.</span><span class="text-sm text-stone">Hubli</span></span>
+          </figcaption>
+        </figure>
+        <figure data-reveal class="quote-card" style="transition-delay:.08s">
+          <div class="text-gold text-lg mb-4">★★★★★</div>
+          <blockquote class="font-display text-xl leading-relaxed text-ink">"Ordered save-the-date magnets for our wedding. Quality was top-notch and the WhatsApp ordering was so easy."</blockquote>
+          <figcaption class="mt-6 flex items-center gap-3">
+            <span class="avatar">A</span>
+            <span><span class="block font-medium text-ink">Akshay &amp; Sneha</span><span class="text-sm text-stone">Dharwad</span></span>
+          </figcaption>
+        </figure>
+        <figure data-reveal class="quote-card" style="transition-delay:.16s">
+          <div class="text-gold text-lg mb-4">★★★★★</div>
+          <blockquote class="font-display text-xl leading-relaxed text-ink">"Such a thoughtful gift idea. I made a set of our travel photos — they brighten up the whole kitchen."</blockquote>
+          <figcaption class="mt-6 flex items-center gap-3">
+            <span class="avatar">R</span>
+            <span><span class="block font-medium text-ink">Rohan M.</span><span class="text-sm text-stone">Bengaluru</span></span>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+  -->
+  <!-- ================= END TESTIMONIALS ================= -->
+
+  <!-- ================= FAQ ================= -->
+  <section id="faq" class="py-24 sm:py-32">
+    <div class="mx-auto max-w-3xl px-5 sm:px-8">
+      <div class="text-center mb-14">
+        <p data-reveal class="text-xs tracking-widest2 uppercase text-gold mb-3">Questions</p>
+        <h2 data-reveal class="font-display text-4xl sm:text-5xl text-ink leading-tight">Good to know</h2>
+      </div>
+
+      <div class="divide-y divide-ink/10 border-y border-ink/10">
+        <details data-reveal class="faq group">
+          <summary class="faq-q">How do I place an order?<span class="faq-icon"></span></summary>
+          <div class="faq-a">Simply tap any "Order on WhatsApp" button. It opens a chat with us where you can send your photos and tell us the occasion. We'll guide you from there.</div>
+        </details>
+        <details data-reveal class="faq group">
+          <summary class="faq-q">What photos work best?<span class="faq-icon"></span></summary>
+          <div class="faq-a">Clear, well-lit photos look best. Send the highest quality version you have — straight from your phone gallery is perfect. We'll let you know if anything needs adjusting.</div>
+        </details>
+        <details data-reveal class="faq group">
+          <summary class="faq-q">Can I see a preview before printing?<span class="faq-icon"></span></summary>
+          <div class="faq-a">Yes! We share a digital preview of the design and only print once you're happy with it.</div>
+        </details>
+        <details data-reveal class="faq group">
+          <summary class="faq-q">Do you deliver outside Hubli?<span class="faq-icon"></span></summary>
+          <div class="faq-a">We're based in Hubli and can arrange delivery to nearby areas and beyond. Message us on WhatsApp with your location and we'll sort out the details.</div>
+        </details>
+        <details data-reveal class="faq group">
+          <summary class="faq-q">How long does it take?<span class="faq-icon"></span></summary>
+          <div class="faq-a">Most orders are designed within a day and ready shortly after. Turnaround can vary with quantity — we'll always give you a clear timeline up front.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ORDER / CTA ================= -->
+  <section id="order" class="pb-24 sm:pb-32">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8">
+      <div data-reveal class="relative overflow-hidden rounded-[2.5rem] bg-ink text-cream px-6 sm:px-16 py-16 sm:py-24 text-center">
+        <div class="pointer-events-none absolute inset-0">
+          <div class="absolute -top-20 left-1/4 h-72 w-72 rounded-full bg-gold/20 blur-3xl"></div>
+          <div class="absolute -bottom-24 right-1/4 h-72 w-72 rounded-full bg-goldsoft/10 blur-3xl"></div>
+          <div class="absolute inset-0 bg-grain opacity-[0.06]"></div>
+        </div>
+        <div class="relative">
+          <img src="img/logo-white.png" alt="SnapnStick" class="h-16 w-auto mx-auto mb-8 opacity-90" />
+          <h2 class="font-display text-4xl sm:text-6xl leading-tight">Ready to magnetize<br/> <span class="italic text-goldsoft">your memories?</span></h2>
+          <p class="mt-6 max-w-md mx-auto text-cream/70 text-lg">Send us your favourite photo on WhatsApp and we'll do the rest. It only takes a minute to start.</p>
+
+          <div class="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="https://wa.me/919611896903?text=Hi%20SnapnStick!%20I'd%20like%20to%20order%20a%20custom%20photo%20magnet.%20%F0%9F%98%8A" target="_blank" rel="noopener" class="btn-whatsapp inline-flex items-center justify-center gap-2.5 rounded-full bg-[#25D366] px-8 py-4 text-base font-semibold text-ink hover:brightness-95 transition duration-300 cursor-pointer">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.2c-.25.69-1.45 1.32-1.99 1.4-.51.08-1.16.11-1.87-.12-.43-.14-.99-.32-1.7-.63-2.99-1.29-4.94-4.3-5.09-4.5-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.59-.37.79-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.59.84 2.04.91 2.19.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.47.12.64-.07.17-.2.74-.86.94-1.16.2-.3.39-.25.66-.15.27.1 1.7.8 1.99.95.3.15.5.22.57.35.07.12.07.72-.18 1.41Z"/></svg>
+              Order on WhatsApp
+            </a>
+            <a href="https://instagram.com/SNAPNSTICK4294" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2.5 rounded-full border border-cream/25 px-8 py-4 text-base font-medium text-cream hover:border-goldsoft hover:text-goldsoft transition duration-300 cursor-pointer">
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s0 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58 0-4.85-.07c-1.17-.05-1.8-.25-2.23-.41a3.7 3.7 0 0 1-1.38-.9 3.7 3.7 0 0 1-.9-1.38c-.16-.42-.36-1.06-.41-2.23C2.21 15.58 2.2 15.2 2.2 12s0-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.21 8.8 2.2 12 2.2Zm0 1.8c-3.15 0-3.5 0-4.74.07-.9.04-1.38.19-1.7.32-.43.16-.74.36-1.06.68-.32.32-.52.63-.68 1.06-.13.32-.28.8-.32 1.7C3.43 8.5 3.42 8.85 3.42 12s0 3.5.07 4.74c.04.9.19 1.38.32 1.7.16.43.36.74.68 1.06.32.32.63.52 1.06.68.32.13.8.28 1.7.32 1.24.06 1.59.07 4.74.07s3.5 0 4.74-.07c.9-.04 1.38-.19 1.7-.32.43-.16.74-.36 1.06-.68.32-.32.52-.63.68-1.06.13-.32.28-.8.32-1.7.06-1.24.07-1.59.07-4.74s0-3.5-.07-4.74c-.04-.9-.19-1.38-.32-1.7a2.85 2.85 0 0 0-.68-1.06 2.85 2.85 0 0 0-1.06-.68c-.32-.13-.8-.28-1.7-.32C15.5 4 15.15 4 12 4Zm0 3.06A4.94 4.94 0 1 1 12 16.94 4.94 4.94 0 0 1 12 7.06Zm0 1.8a3.14 3.14 0 1 0 0 6.28 3.14 3.14 0 0 0 0-6.28Zm5.14-2.94a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z"/></svg>
+              @SNAPNSTICK4294
+            </a>
+          </div>
+
+          <p class="mt-8 text-sm text-cream/60">Or call / WhatsApp us directly at
+            <a href="tel:+919611896903" class="text-goldsoft hover:underline underline-offset-4">+91 96118 96903</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="border-t border-ink/10 bg-cream">
+    <div class="mx-auto max-w-7xl px-5 sm:px-8 py-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div class="lg:col-span-2">
+        <img src="img/logo-black.png" alt="SnapnStick" class="h-14 w-auto" />
+        <p class="mt-4 max-w-xs text-stone leading-relaxed">Custom photo magnets, handcrafted in Hubli. Magnetize your memories.</p>
+      </div>
+
+      <div>
+        <h3 class="text-xs tracking-widest2 uppercase text-stone mb-4">Explore</h3>
+        <ul class="space-y-2.5 text-ink/80">
+          <li><a href="#samples" class="hover:text-gold transition-colors">Samples</a></li>
+          <li><a href="#how" class="hover:text-gold transition-colors">How it works</a></li>
+          <li><a href="#about" class="hover:text-gold transition-colors">About</a></li>
+          <li><a href="#faq" class="hover:text-gold transition-colors">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-xs tracking-widest2 uppercase text-stone mb-4">Get in touch</h3>
+        <ul class="space-y-2.5 text-ink/80">
+          <li><a href="https://wa.me/919611896903" target="_blank" rel="noopener" class="hover:text-gold transition-colors">WhatsApp +91 96118 96903</a></li>
+          <li><a href="https://instagram.com/SNAPNSTICK4294" target="_blank" rel="noopener" class="hover:text-gold transition-colors">@SNAPNSTICK4294</a></li>
+          <li><a href="mailto:Snapnstick4294@gmail.com" class="hover:text-gold transition-colors">Snapnstick4294@gmail.com</a></li>
+          <li><a href="https://wa.me/919611896903?text=Hi%20SnapnStick!%20I'd%20like%20to%20share%20my%20feedback%20on%20my%20order%20%F0%9F%98%8A" target="_blank" rel="noopener" class="hover:text-gold transition-colors">Already ordered? Share your feedback →</a></li>
+          <li class="text-stone">Hubli, Karnataka, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-ink/10">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-stone">
+        <p>© <span id="year"></span> SnapnStick. All rights reserved.</p>
+        <p class="font-display italic text-ink/70">Magnetize your memories.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a href="https://wa.me/919611896903?text=Hi%20SnapnStick!%20I'd%20like%20to%20order%20a%20custom%20photo%20magnet.%20%F0%9F%98%8A" target="_blank" rel="noopener" id="floatWA" class="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-xl shadow-black/20 transition-transform duration-300 hover:scale-110 cursor-pointer" aria-label="Order on WhatsApp">
+    <svg class="h-7 w-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm5.8 14.2c-.25.69-1.45 1.32-1.99 1.4-.51.08-1.16.11-1.87-.12-.43-.14-.99-.32-1.7-.63-2.99-1.29-4.94-4.3-5.09-4.5-.15-.2-1.22-1.62-1.22-3.1s.77-2.2 1.05-2.5c.27-.3.59-.37.79-.37.2 0 .39 0 .56.01.18.01.42-.07.66.5.25.59.84 2.04.91 2.19.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.76 1.25 1.63 2.02 1.12.99 2.06 1.3 2.36 1.45.3.15.47.12.64-.07.17-.2.74-.86.94-1.16.2-.3.39-.25.66-.15.27.1 1.7.8 1.99.95.3.15.5.22.57.35.07.12.07.72-.18 1.41Z"/></svg>
+  </a>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 z-[70] hidden items-center justify-center bg-ink/90 backdrop-blur-sm p-6">
+    <button id="lbClose" class="absolute top-5 right-5 h-12 w-12 inline-flex items-center justify-center rounded-full bg-cream/10 text-cream hover:bg-cream/20 cursor-pointer" aria-label="Close">
+      <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <figure class="max-w-3xl w-full text-center">
+      <img id="lbImg" src="" alt="" class="mx-auto max-h-[80vh] w-auto rounded-2xl shadow-2xl" />
+      <figcaption id="lbCap" class="mt-4 font-display italic text-cream/80"></figcaption>
+    </figure>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

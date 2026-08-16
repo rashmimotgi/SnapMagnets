@@ -1,5 +1,5 @@
 /* ===========================================================
-   SnapnStick — custom styles
+   SNAPnSTICK — custom styles
    Elegant editorial: cream + charcoal + champagne gold
    =========================================================== */
 
@@ -10,6 +10,10 @@
 
 html { -webkit-text-size-adjust: 100%; }
 body { text-rendering: optimizeLegibility; }
+
+/* Fraunces ships a "WONK" axis that swaps in swashy, quirky letterforms
+   (most visibly the lowercase f, g and y). Turn it off for clean shapes. */
+html { font-variation-settings: 'SOFT' 0, 'WONK' 0; }
 
 /* Subtle paper grain used on dark sections */
 .bg-grain {
@@ -150,6 +154,13 @@ body { text-rendering: optimizeLegibility; }
   transition: transform .35s ease, box-shadow .35s ease;
 }
 .quote-card:hover { transform: translateY(-6px); box-shadow: 0 28px 50px -28px rgba(33,30,28,.4); }
+/* Brand name called out inside a customer quote */
+.brand-hl {
+  color: var(--gold);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.quote-body p + p { margin-top: 1rem; }
 .avatar {
   display: inline-flex;
   align-items: center;

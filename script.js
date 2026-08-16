@@ -1,5 +1,5 @@
 /* ===========================================================
-   SnapnStick — interactions
+   SNAPnSTICK — interactions
    - sticky navbar styling on scroll
    - mobile menu
    - scroll reveal (IntersectionObserver)

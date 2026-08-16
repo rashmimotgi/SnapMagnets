@@ -1,6 +1,6 @@
-# SnapnStick — Magnetize Your Memories
+# SNAPnSTICK — Magnetize Your Memories
 
-Marketing website for **SnapnStick**, custom photo magnets handcrafted in Hubli, India.
+Marketing website for **SNAPnSTICK**, custom photo magnets handcrafted in Hubli, India.
 Elegant editorial design (cream + charcoal + champagne gold), WhatsApp-first ordering,
 fully responsive with tasteful scroll animations.
 
